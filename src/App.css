@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+#upperBox{
+  background-color: rgb(206,206,206);
+  padding: 40px;
+  width: 250px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#listItem {
+  display:flex;
+  justify-content: space-between;
+  padding: 5px;
+  
+}
+#listItem > div{
+  background-color: rgb(241, 176, 176);
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+
+
+}
+.checkbox {
+  border: 5px solid rgb(72, 233, 179);
+  border-radius: 50%;
+  background-color: rgb(189, 186, 186);
+
+}
+#addBox > input{
+  border: 0;
+  padding: 10px;
+  width: 170px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+
+}
+#addBox > button{
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size:16px ;
+
+}
+#addBox > button:hover{
+ color: yellow;
+
+ background-color: rgb(192, 188, 131);
+
+}
+#value{
+  font-size: 20px;
+  margin-top:5px;
+  font-weight: 700;
+  word-spacing:1rem;
+  color:rgb(255, 255, 255) ;
+}
